@@ -5,18 +5,23 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="style.css">
-        <link rel="icon" href="./assets/logo.ico" type="image/x-icon">
+        <link rel="icon" href="./assets/logo.png" type="image/x-icon">
 
         <!-- === Head section === -->
         <title>My portfolio website</title>
-        <div class="light-dark-mode">
-            <label for="dark-light" id="dark-light-lbl">Dark mode</label>
-            <input type="checkbox" name="dark-light" id="dark-light">
-            <span class="switch"></span>
-        </div>
+
+        
     </head>
     <body>
+        <!-- Navigation bar -->
+        <nav class="light-dark-mode">
+            <label for="dark-light" id="dark-light-lbl">
+                <input type="checkbox" name="dark-light" id="dark-light">
+                <span class="switch"></span>
+            </label>
+        </nav>
         <!-- === MAIN CONTAINER === -->
+        <!-- Center the elements of this container -->
         <div class="main-container">
             <!-- === Links and Icons === -->
             <div class="links">
@@ -30,17 +35,22 @@
                     <img src="./assets/light/github_light.png" alt="github_image">
                 </a>
             </div>
+
             <!-- === Main title === -->
+            
             <div class="title">
                 <h1>
                     Welcome To My <br>
                     Portfolio Website
                 </h1>
             </div>
+
             <!-- === Website domain === -->
+            <!--  Todo: Add typing animation to .website, and corners -->
             <div class="website">
                 <a href="http://xushidev.github.io/">http://xushidev.github.io/</a>
             </div>
+
         </div>
         <script src="app.js"></script>
     </body>
